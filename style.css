@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    margin: auto;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(10,100px);
+    grid-template-rows: repeat(8,20px);
+    background-color: white;
+}
+.logo{
+    grid-column: span 10;
+    grid-row: span 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+    border-bottom: 1px solid black;
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.aboutMe{
+    border-bottom: 1px solid black;
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.contact{
+    border-bottom: 1px solid black;
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.a_1{
+    grid-column:span 6;
+    grid-row:span 3;
+}
+.listMenu{
+    grid-column: span 1 ;
+    grid-row: span 3;
+}
+a{
+    text-decoration:none ;
+    color:black ;
+}
